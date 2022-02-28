@@ -1,11 +1,12 @@
 import React from "react";
 import "./Home.scss";
-import Navbar from "../components/Navbar";
+import { Navbar, Featured } from "../components";
 
 const Home = () => {
   return (
     <div className="home">
-      <Navbar />{" "}
+      <Navbar />
+      <Featured />
     </div>
   );
 };

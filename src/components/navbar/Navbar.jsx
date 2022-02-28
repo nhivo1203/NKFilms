@@ -1,6 +1,6 @@
 import React from "react";
+import { ArrowDropDown, Notifications, Search } from "@material-ui/icons";
 import "./Navbar.scss";
-import { ArrowDropDown, Search, Notifications } from "@material-ui/icons";
 
 const Navbar = () => {
   return (
